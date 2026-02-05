@@ -41,7 +41,7 @@ app.get("/", (req, res) => {
     activeStatus: true,
     error: false,
   });
-});
+})
 
 
 server.listen(PORT, () => {
